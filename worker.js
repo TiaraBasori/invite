@@ -80,7 +80,7 @@ function parseCommand(text, botUsername) {
 }
 
 async function handleStartCommand(chatId, replyToMessageId, botToken) {
-  const startText = `<b>Intercat邀请</b>
+  const startText = `<b>私密群组邀请</b>
 
   <b>可用命令：</b>
   /help - 查看帮助
@@ -96,9 +96,7 @@ async function handleStartCommand(chatId, replyToMessageId, botToken) {
 }
 
 async function handleHelpCommand(chatId, replyToMessageId, botToken) {
-  const helpText = `<b>Intercat邀请</b>
-
-  <b>可用命令：</b>
+  const helpText = `<b>可用命令：</b>
   /help - 查看帮助
   /link - 获取您的专属邀请链接
   /remake - 重新生成邀请链接
