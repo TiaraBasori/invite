@@ -55,6 +55,7 @@ id = "你的KV命名空间ID"
 [vars]
 BOT_TOKEN = "你的Telegram Bot Token"
 WHITELISTED_GROUP_ID = "你的群组ID"
+BOT_USERNAME = "你的bot用户名"
 ```
 
 #### 4. 部署代码
@@ -76,6 +77,7 @@ wrangler deploy
 - 添加以下变量：
   - `BOT_TOKEN` = 你的Telegram Bot Token
   - `WHITELISTED_GROUP_ID` = 你的群组ID
+  - 'BOT_USERNAME' = "你的bot用户名"
 
 #### 3. 绑定 KV 命名空间
 - 在 "Settings" 页面选择 "KV Namespace Bindings"
